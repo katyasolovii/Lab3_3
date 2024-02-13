@@ -17,3 +17,11 @@ def degree_of_five(numb):
     while numb % 5 == 0:
         numb /= 5
     return numb == 1
+
+def is_prime(number):
+    if number < 2:
+        return False
+    for i in range(2, int(number ** 0.5) + 1):
+        if number % i == 0:
+            return False
+    return True
