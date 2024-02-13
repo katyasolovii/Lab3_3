@@ -1,3 +1,4 @@
-from utils import gcd, factorial
+from utils import gcd, factorial, degree_of_five
 print(gcd(8, 12))
 print(factorial(5))
+print(degree_of_five(125))
